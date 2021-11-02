@@ -127,7 +127,7 @@ function hungryDog(weight, age){
   }
 }
 
-console.log('task 3' hungryDog(15, 1));
+
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
