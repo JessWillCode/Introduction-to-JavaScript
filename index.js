@@ -38,8 +38,8 @@ Do the following:
 let age1 = 20;
 let age2 = 15;
 
-if(age2 === 15){
-  age1++; console.log(age1);
+if(age2 >= 10){
+  age1 = age1 + age2 ; console.log(age1);
 }
 
 
@@ -55,9 +55,8 @@ Do the following:
 */
 let var1 = '1999';
 
-if(var1 === '1999'){
-  console.log(1999);
-}
+parseInt('1999');
+console.log(var1);
 
 
 /*
@@ -70,7 +69,7 @@ Do the following:
 */
 
 function multiply(a, b){
-  return (a * b);
+  return a * b;
 }
 
 
@@ -85,7 +84,7 @@ Do the following:
 */
 
 function dogYears(age){
-  return (age * 7);
+  return age * 7;
 }
 console.log('task 2', dogYears(7));
 
@@ -199,10 +198,11 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-  /*add your code here*/
+function miles(km){
+  return km * 0.621371;
 }
 
+console.log(miles(15));
 
 
 //Task 5b - Feet to CM
@@ -213,11 +213,11 @@ Using the feet function below do the following:
 3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-  /*add your code here*/
+function feet(cm){
+  return cm / 30.48;
 }
 
-
+console.log(feet(10));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
